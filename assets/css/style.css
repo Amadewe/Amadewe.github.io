@@ -1,0 +1,295 @@
+.container-fluid, .row {
+  padding: 0;
+  margin: 0;
+}
+
+/* effet sur le scroll */
+html {
+  scroll-behavior : smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* barre de Navigation */
+.navbar {
+  padding: 1em; /* taille à l'intérieur de mon bord */
+  background: #080820; /* pour la couleur de mon menu */
+  font-size: 20px;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #07f4ee;
+}
+
+/* Pour toutes les sections */
+section {
+  padding-top: 7rem;   /* permet d'avoir mes sections en dessous de la navbar */
+  padding-bottom: 20rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#home {
+  padding-top: 20rem;
+  background-image: url(../img/photocv2.jpg);
+}
+
+#presentation {
+  padding-top: 15rem;
+  background-image: url(../img/photocv.jpg);
+}
+
+#skill {
+  padding-top: 10rem;
+  background-image: url(../img/photocv11.jpg);
+}
+
+#formations {
+  padding-top: 10rem;
+  background-image: url(../img/photocv3.jpg);
+}
+
+#experiences {
+  padding-top: 10rem;
+  background-image: url(../img/photocv4.jpg);
+}
+
+#hobbies {
+  padding-top: 12rem;
+  background-image: url(../img/photocv6.jpg);
+}
+
+#contact {
+  padding-bottom: 4rem;
+  text-align: center;
+}
+
+.slide {
+  background-color: #080820;
+  color: white;
+  padding: 5rem;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Slide Home */
+#home h2 {
+  font-size: 2.5rem;
+}
+
+#home h2:hover {
+  color: #07f4ee;
+  font-size: 3rem;
+}
+
+#home p, #home a {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+#home p:hover, #home a:hover {
+  color: #07f4ee;
+  font-weight: bold;
+}
+
+/* Slide présentation */
+#presentation h2 {
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+#presentation p {
+  font-size: 1.4rem;
+  text-align: justify;
+}
+
+/* Slide Compétences */
+.colorIcon {
+  color: #07f4ee;
+}
+
+#skill h2 {
+  font-size: 2.5rem;
+}
+
+#skill h3 {
+  font-size: 2rem;
+  padding-bottom: 3rem;
+  padding-top: 4rem;
+}
+
+#skill p {
+  font-size: 1.5rem;
+}
+
+#skill .fa {
+  font-size: 1.5rem;
+}
+
+/* Slide formation */
+.titleFormation {
+    padding-top: 2rem;
+}
+
+/* Commun formations et expériences */
+#formations h2, #experiences h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.formation, .experiences {
+  margin-top: 2rem;
+}
+
+.informationFormation h4, .informationJob h4 {
+  color: #080820;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+}
+
+.titleFormation h3, .titleJob h3 {
+  font-size: 1.3rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.informationFormation p, .informationJob p {
+  font-size: 1.1rem;
+}
+
+.titleFormation, .titleJob {
+  background-color: #080820;
+  color: white;
+  border-radius: 5px; /* arrondi mes bords */
+}
+
+.informationFormation, .informationJob {
+  background-color: rgba(216, 216, 231, 0.5);
+  box-shadow: 1px 1px 1px #080820;
+}
+
+/*Slide Expériences*/
+#experiences a {
+  color: #080820;
+  font-weight: bold;
+}
+/* Slide hobbies */
+.textHobbies {
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+
+#hobbies h2 {
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+#hobbies h3 {
+  font-weight: bold;
+}
+
+#hobbies p {
+  font-size: 1.4rem;
+}
+
+#hobbies a {
+  color: #07f4ee;
+}
+/* Slide Contact */
+#contact h2 {
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+#contact p, #contact a {
+  font-size: 1.4rem;
+}
+
+.strongContact {
+  font-weight: bold;
+}
+
+#contact h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#contact img {
+  padding: 1rem;
+}
+
+.informationContact {
+  padding-top: 3rem;
+}
+
+.infoNameContact h4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.infoNameContact h3:hover, .infoNameContact h4:hover, .infoNameContact p:hover, .infoNameContact a:hover {
+  color: #07f4ee;
+  font-weight: bold;
+}
+
+#contact a {
+  color: #fff;
+}
+
+.copyright {
+  text-align: center;
+}
+
+@media screen and (max-width: 990px) {
+  .slide {
+    padding: 5rem 1rem;
+  }
+
+  #home {
+    background-image: url(../img/photocv8.jpg);
+  }
+
+  #presentation {
+    background-image: url(../img/presentation.jpg);
+  }
+
+  #skill {
+    background-image: url(../img/photocv9.jpg);
+  }
+
+  #formations {
+    background-image: url(../img/formation.jpg);
+  }
+
+  #experiences {
+    background-image: url(../img/experience2.JPG);
+  }
+
+  #hobbies {
+    background-image: url(../img/loisirs.jpg);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #contact a {
+    font-size: 1rem;
+  }
+}
